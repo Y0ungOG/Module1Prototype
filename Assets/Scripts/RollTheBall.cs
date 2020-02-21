@@ -5,7 +5,7 @@ using UnityEngine;
 public class RollTheBall : MonoBehaviour
 {
 
-    private float speed = 150;      //圆面的旋转速度为150度
+    private float speed = 150;      
 
 
 
@@ -18,6 +18,6 @@ public class RollTheBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0, 0, speed * Time.deltaTime));        //控制圆面旋转
+        transform.Rotate(new Vector3(0, 0, speed * Time.deltaTime));        
     }
 }
